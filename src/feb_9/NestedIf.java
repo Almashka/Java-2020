@@ -1,4 +1,4 @@
-package Feb_9;
+package feb_9;
 
 public class NestedIf {
     public static void main(String[] args) {
