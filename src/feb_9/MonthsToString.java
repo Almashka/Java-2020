@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MonthsToString {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Type number to get corresponding month: ");
+        System.out.print("Type a number to get corresponding month: ");
         int month = input.nextInt();
         switch (month){
             case 1:
@@ -43,6 +43,9 @@ public class MonthsToString {
                 break;
             case 12:
                 System.out.println("December");
+                break;
+            default:
+                System.out.println("Only numbers between 1-12");
                 break;
         }
     }
