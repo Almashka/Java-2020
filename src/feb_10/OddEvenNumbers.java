@@ -7,7 +7,7 @@ public class OddEvenNumbers {
                 System.out.println(i);
             }
         }
-       for(int i = 2001; i >= 1000; i--){
+       for(int i = 2000; i >= 1000; i--){
             if(i%2 == 0){
                 System.out.println(i);
             }
