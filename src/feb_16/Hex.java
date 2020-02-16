@@ -8,9 +8,6 @@ public class Hex {
             if(number.charAt(i) == 'A' || number.charAt(i) == 'B' || number.charAt(i) == 'C' || number.charAt(i) == 'D' || number.charAt(i) == 'E' || number.charAt(i) == 'F'){
                 hex = true;
             }
-            else {
-                hex = false;
-            }
         }
         if(hex)
             System.out.println("Hexadecimal");
