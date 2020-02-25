@@ -8,4 +8,13 @@ public class CharRemoving {
             }
         }
     }
+    public static String removeCharStr(String text, char letter){
+        String removed = "";
+        for(int i = 0; i < text.length(); i++){
+            if(text.charAt(i) != letter){
+                removed += text.charAt(i);
+            }
+        }
+        return removed;
+    }
 }
